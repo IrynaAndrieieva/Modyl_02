@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IFencingServis.cs" />
     <Compile Include="Fencing.cs" />
     <Compile Include="MagnoliophytaComparer.cs" />
     <Compile Include="Mentha.cs" />
