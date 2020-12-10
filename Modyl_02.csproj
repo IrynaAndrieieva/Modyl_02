@@ -44,10 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\TypeOfSubstances.cs" />
-    <Compile Include="Models\Drugs\Recipe.cs" />
+    <Compile Include="Models\Drugs\IRecipe.cs" />
     <Compile Include="Models\Drugs\Sedariston.cs" />
     <Compile Include="Models\Spermatophytes\Sinningia.cs" />
-    <Compile Include="Models\Substances.cs" />
+    <Compile Include="Models\Drugs\Substances.cs" />
     <Compile Include="Starter.cs" />
     <Compile Include="Services\FencingServis.cs" />
     <Compile Include="Abstractions\IFencingServis.cs" />
