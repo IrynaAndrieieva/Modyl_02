@@ -20,6 +20,7 @@ namespace Modyl_02
         public Starter()
         {
             this.fencingServis = new FencingServis();
+            this.collectionOfHerbsServis = new CollectionOfHerbsServis();
         }
 
         public void Run()
