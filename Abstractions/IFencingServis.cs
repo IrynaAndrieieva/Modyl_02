@@ -10,7 +10,7 @@ namespace Modyl_02
     {
         Fencing MakeMedicinPlant();
 
-        Fencing MakeNonMedicinPlant();
+        Fencing MakeDecorationPlant();
 
     }
 }

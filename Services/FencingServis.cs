@@ -24,7 +24,7 @@ namespace Modyl_02
             return new Fencing { Magnoliophyta = magnoliophyta };
         }
 
-        public Fencing MakeNonMedicinPlant()
+        public Fencing MakeDecorationPlant()
         {
             var magnoliophyta = new Magnoliophyta[]
             {

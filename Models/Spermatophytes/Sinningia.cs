@@ -11,7 +11,6 @@ namespace Modyl_02.Models.Spermatophytes
         public Sinningia(string medicinal, string zone)
            : base(medicinal, zone)
         {
-
         }
         public override string Domain => "Eukaryota";
 

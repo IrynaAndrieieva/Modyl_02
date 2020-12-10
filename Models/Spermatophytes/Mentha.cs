@@ -11,8 +11,8 @@ namespace Modyl_02
         public Mentha(string medicinal, string zone)
            : base(medicinal, zone)
         {
-
         }
+
         public override string Domain => "Eukaryota";
 
         public override TypeOfFamilia TypeOfFamilia => TypeOfFamilia.Lamiaceae;

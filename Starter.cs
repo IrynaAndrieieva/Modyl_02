@@ -35,7 +35,7 @@ namespace Modyl_02
 
             Console.WriteLine("\nFencing 2:");
 
-            var fencingNonMed = this.fencingServis.MakeNonMedicinPlant();
+            var fencingNonMed = this.fencingServis.MakeDecorationPlant();
             Array.Sort(fencingNonMed.Magnoliophyta, new MagnoliophytaComparer());
 
             for (int i = 0; i < fencingNonMed.Magnoliophyta.Length; i++)

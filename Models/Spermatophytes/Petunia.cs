@@ -11,7 +11,6 @@ namespace Modyl_02
         public Petunia(string medicinal, string zone)
            : base(medicinal, zone)
         {
-
         }
         public override string Domain => "Eukaryota";
 

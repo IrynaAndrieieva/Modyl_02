@@ -11,7 +11,6 @@ namespace Modyl_02
         public ValerianaOfficinalis(string medicinal, string zone)
            : base(medicinal, zone)
         {
-
         }
         public override string Domain => "Eukaryota";
 
