@@ -17,7 +17,7 @@ namespace Modyl_02
 
         public override TypeOfFamilia TypeOfFamilia => TypeOfFamilia.Lamiaceae;
 
-        public override string Name => "MenthaPiperita";
+        public override string Name => "Mentha Piperita";
 
         public override TimeSpan LifeTime => TimeSpan.FromDays(365);
 

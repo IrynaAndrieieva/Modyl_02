@@ -17,7 +17,7 @@ namespace Modyl_02
 
         public override TypeOfFamilia TypeOfFamilia => TypeOfFamilia.Caprifoliaceae;
 
-        public override string Name => "ValerianaOfficinalis";
+        public override string Name => "Valeriana Officinalis";
 
         public override TimeSpan LifeTime => TimeSpan.FromDays(365);
 
