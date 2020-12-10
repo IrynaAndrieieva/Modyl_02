@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MagnoliophytaComparer.cs" />
+    <Compile Include="Mentha.cs" />
     <Compile Include="Petunia.cs" />
     <Compile Include="MenthaPiperita.cs" />
     <Compile Include="ValerianaOfficinalis.cs" />
