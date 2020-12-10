@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Spermatophytes\Sinningia.cs" />
     <Compile Include="Starter.cs" />
     <Compile Include="Services\FencingServis.cs" />
     <Compile Include="Abstractions\IFencingServis.cs" />

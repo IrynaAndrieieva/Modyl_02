@@ -11,5 +11,6 @@ namespace Modyl_02
         Lamiaceae, //семейство Яснотковые
         Caprifoliaceae, // семейство Жимолостные
         Solanaceae, // семейство Пасленовые
+        Gesneriaceae, //семейство Геснериевые 
     }
 }

@@ -15,11 +15,11 @@ namespace Modyl_02
             var x = first as Magnoliophyta;
             var y = second as Magnoliophyta;
 
-            if (x.Name.Length < y.Name.Length)
+            if (x.Name.Length > y.Name.Length)
             {
                 return 1;
             }
-            else if (x.Name.Length > y.Name.Length)
+            else if (x.Name.Length < y.Name.Length)
             {
                 return -1;
             }
