@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Petunia.cs" />
+    <Compile Include="MenthaPiperita.cs" />
     <Compile Include="ValerianaOfficinalis.cs" />
     <Compile Include="Magnoliophyta.cs" />
     <Compile Include="Kingdom.cs" />
