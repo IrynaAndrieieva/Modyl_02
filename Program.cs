@@ -10,6 +10,9 @@ namespace Modyl_02
     {
         static void Main(string[] args)
         {
+            Starter start = new Starter();
+            start.Run();
+            Console.ReadKey();
         }
     }
 }
