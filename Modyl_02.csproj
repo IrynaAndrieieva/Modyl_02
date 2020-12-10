@@ -43,21 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="FencingServis.cs" />
-    <Compile Include="IFencingServis.cs" />
-    <Compile Include="Fencing.cs" />
-    <Compile Include="MagnoliophytaComparer.cs" />
-    <Compile Include="Mentha.cs" />
-    <Compile Include="Petunia.cs" />
-    <Compile Include="MenthaPiperita.cs" />
-    <Compile Include="ValerianaOfficinalis.cs" />
-    <Compile Include="Magnoliophyta.cs" />
-    <Compile Include="Kingdom.cs" />
-    <Compile Include="ILife.cs" />
+    <Compile Include="Starter.cs" />
+    <Compile Include="Services\FencingServis.cs" />
+    <Compile Include="Abstractions\IFencingServis.cs" />
+    <Compile Include="Entities\Fencing.cs" />
+    <Compile Include="Helpers\MagnoliophytaComparer.cs" />
+    <Compile Include="Models\Mentha.cs" />
+    <Compile Include="Models\Petunia.cs" />
+    <Compile Include="Models\MenthaPiperita.cs" />
+    <Compile Include="Models\ValerianaOfficinalis.cs" />
+    <Compile Include="Models\Magnoliophyta.cs" />
+    <Compile Include="Models\Kingdom.cs" />
+    <Compile Include="Models\ILife.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TypeOfFamilia.cs" />
+    <Compile Include="Enums\TypeOfFamilia.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
