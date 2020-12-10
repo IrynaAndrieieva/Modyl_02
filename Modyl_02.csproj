@@ -48,11 +48,11 @@
     <Compile Include="Abstractions\IFencingServis.cs" />
     <Compile Include="Entities\Fencing.cs" />
     <Compile Include="Helpers\MagnoliophytaComparer.cs" />
-    <Compile Include="Models\Mentha.cs" />
-    <Compile Include="Models\Petunia.cs" />
-    <Compile Include="Models\MenthaPiperita.cs" />
-    <Compile Include="Models\ValerianaOfficinalis.cs" />
-    <Compile Include="Models\Magnoliophyta.cs" />
+    <Compile Include="Models\Spermatophytes\Mentha.cs" />
+    <Compile Include="Models\Spermatophytes\Petunia.cs" />
+    <Compile Include="Models\Spermatophytes\MenthaPiperita.cs" />
+    <Compile Include="Models\Spermatophytes\ValerianaOfficinalis.cs" />
+    <Compile Include="Models\Plants\Magnoliophyta.cs" />
     <Compile Include="Models\Kingdom.cs" />
     <Compile Include="Models\ILife.cs" />
     <Compile Include="Program.cs" />

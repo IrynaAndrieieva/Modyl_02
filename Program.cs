@@ -10,6 +10,8 @@ namespace Modyl_02
     {
         static void Main(string[] args)
         {
+            // Attention! I use Latin names to avoid confusion
+
             Starter start = new Starter();
             start.Run();
             Console.ReadKey();
