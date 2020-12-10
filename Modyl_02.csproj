@@ -43,11 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\ICollectionOfHerbsServis.cs" />
+    <Compile Include="Entities\CollectionOfHerbs.cs" />
     <Compile Include="Enums\TypeOfSubstances.cs" />
     <Compile Include="Models\Drugs\IRecipe.cs" />
     <Compile Include="Models\Drugs\Sedariston.cs" />
+    <Compile Include="Models\Drugs\Signatyre.cs" />
     <Compile Include="Models\Spermatophytes\Sinningia.cs" />
     <Compile Include="Models\Drugs\Substances.cs" />
+    <Compile Include="Services\CollectionOfHerbsServis.cs" />
     <Compile Include="Starter.cs" />
     <Compile Include="Services\FencingServis.cs" />
     <Compile Include="Abstractions\IFencingServis.cs" />

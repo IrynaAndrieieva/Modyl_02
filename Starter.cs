@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Modyl_02.Abstractions;
+using Modyl_02.Services;
+using Modyl_02.Models;
 using System.Threading.Tasks;
 
 namespace Modyl_02
@@ -11,6 +14,8 @@ namespace Modyl_02
         // Attention! I use Latin names to avoid confusion
 
         private readonly IFencingServis fencingServis;
+
+        private readonly ICollectionOfHerbsServis collectionOfHerbsServis;
 
         public Starter()
         {
@@ -45,6 +50,9 @@ namespace Modyl_02
                 Console.WriteLine($"Familia: {fencingNonMed.Magnoliophyta[i].TypeOfFamilia}");
             }
 
+            var collectionOfHerbsServis = this.collectionOfHerbsServis.MakeSedativi();
+
+            Console.WriteLine($"{collectionOfHerbsServis.Substances}");
         }
     }
 }

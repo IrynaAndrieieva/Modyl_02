@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Modyl_02.Models.Drugs
 {
-    class Sedariston : Substances
+    public class Sedariston : Substances
     {
         public Sedariston(int numberRecipe)
            : base(numberRecipe)
@@ -16,8 +16,6 @@ namespace Modyl_02.Models.Drugs
         public override string NameDrugs => "Sedariston";
 
         public override string Compositionem => "Menta, Valeriana Officinalic";
-
-        public override TypeOfFamilia TypeOfFamilia => TypeOfFamilia.Lamiaceae;
 
         public override TypeOfSubstances TypeOfSubstances => TypeOfSubstances.Lagena;
     }

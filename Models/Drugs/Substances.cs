@@ -3,31 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Modyl_02.Enums;
+using Modyl_02.Models.Drugs;
 using System.Threading.Tasks;
 
 namespace Modyl_02.Models
 { 
-    public abstract class Substances : IRecipe
-    {        
-        private readonly int numberRecipe;
-        private readonly string nameDrugs;
-        private readonly string compositionem;
-
+    public abstract class Substances : Signatyre
+    {
         protected Substances(int numberRecipe)
+           : base(numberRecipe)
         {
-            this.numberRecipe = numberRecipe;          
+
         }
-
-        public int NumberRecipe => this.numberRecipe;
-
-        public abstract string NameDrugs { get; }
-
-        public abstract string Compositionem { get; }
-
-        public abstract TypeOfFamilia TypeOfFamilia { get; }
-
         public abstract TypeOfSubstances TypeOfSubstances { get; }
-
 
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Modyl_02
 {
-    class FencingServis : IFencingServis
+    public class FencingServis : IFencingServis
     {
         public FencingServis()
         {
