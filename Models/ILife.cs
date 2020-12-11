@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Modyl_02
+﻿namespace Modyl_02
 {
+    using System;
+
     public interface ILife
     {
         string Domain { get; }
@@ -17,6 +13,5 @@ namespace Modyl_02
         TimeSpan LifeTime { get; }
 
         string Zone { get; }
-
     }
 }

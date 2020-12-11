@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Collections;
-using System.Threading.Tasks;
-
-namespace Modyl_02
+﻿namespace Modyl_02
 {
+    using System.Collections;
+
     public class MagnoliophytaComparer : IComparer
     {
-
         public int Compare(object first, object second)
         {
             var x = first as Magnoliophyta;

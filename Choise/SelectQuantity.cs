@@ -1,14 +1,10 @@
-﻿using Modyl_02.Abstractions;
-using Modyl_02.Helpers;
-using Modyl_02.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Modyl_02
+﻿namespace Modyl_02
 {
+    using System;
+    using Modyl_02.Abstractions;
+    using Modyl_02.Helpers;
+    using Modyl_02.Services;
+
     public class SelectQuantity
     {
         private readonly ICollectionOfHerbsServis collectionOfHerbsServis;
@@ -17,9 +13,11 @@ namespace Modyl_02
         {
             this.collectionOfHerbsServis = new CollectionOfHerbsServis();
         }
+
         public void Choise()
         {
         }
+
         public void ShowRecipe()
         {
             Console.WriteLine("-------------------");
@@ -46,26 +44,22 @@ namespace Modyl_02
 
         public void ChoiceCase(string choice)
         {
-         
             switch (choice)
             {
-
                 case "Y":
                     {
                         ShowRecipe();
 
                         break;
                     }
+
                 case "N":
                     {
                         NonShowRecipe();
 
                         break;
                     }
-
             }
-
-
         }
     }
 }

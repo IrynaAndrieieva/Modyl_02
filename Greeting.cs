@@ -8,6 +8,7 @@ namespace Modyl_02
 {
     public class Greeting
     {
+        // Attention! I use Latin names to avoid confusion
         public void Hello()
         {
             Console.WriteLine("Hello!");

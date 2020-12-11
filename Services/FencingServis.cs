@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Modyl_02.Models.Spermatophytes;
-using System.Threading.Tasks;
-
-namespace Modyl_02
+﻿namespace Modyl_02
 {
+    using Modyl_02.Models.Spermatophytes;
+
     public class FencingServis : IFencingServis
     {
         public FencingServis()
         {
         }
+
         public Fencing MakeMedicinPlant()
         {
             var magnoliophyta = new Magnoliophyta[]
@@ -20,7 +16,6 @@ namespace Modyl_02
                 new ValerianaOfficinalis("Yes", "Forest zone"),
                 new MenthaPiperita("Yes", "Forest-steppe zone"),
             };
-           
             return new Fencing { Magnoliophyta = magnoliophyta };
         }
 

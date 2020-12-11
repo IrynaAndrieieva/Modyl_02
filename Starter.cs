@@ -1,21 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Modyl_02.Abstractions;
-using Modyl_02.Services;
-using Modyl_02.Models;
-using System.Threading.Tasks;
-using Modyl_02.Helpers;
-
-namespace Modyl_02
+﻿namespace Modyl_02
 {
+    using System;
+
     public class Starter
     {
         // Attention! I use Latin names to avoid confusion
-
         private readonly IFencingServis fencingServis;
-
 
         public Starter()
         {
@@ -49,8 +39,6 @@ namespace Modyl_02
                 Console.WriteLine($"NameKingdom: {fencingNonMed.Magnoliophyta[i].NameKingdom} || Medicinal: {fencingNonMed.Magnoliophyta[i].Medicinal}");
                 Console.WriteLine($"Familia: {fencingNonMed.Magnoliophyta[i].TypeOfFamilia}");
             }
-
-            
         }
     }
 }

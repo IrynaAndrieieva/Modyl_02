@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Modyl_02.Models.Spermatophytes
+{
+    using System;
 
-namespace Modyl_02.Models.Spermatophytes
-{  
     public class Sinningia : Magnoliophyta
     {
         public Sinningia(string medicinal, string zone)

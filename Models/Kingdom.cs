@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Modyl_02
+﻿namespace Modyl_02
 {
+    using System;
+
     public abstract class Kingdom : ILife
     {
         private readonly string medicinal;
@@ -29,6 +25,5 @@ namespace Modyl_02
         public abstract TimeSpan LifeTime { get; }
 
         public string Zone => this.zone;
-
     }
 }

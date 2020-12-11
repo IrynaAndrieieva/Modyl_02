@@ -1,12 +1,6 @@
-﻿using Modyl_02.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Modyl_02.Models.Drugs
+﻿namespace Modyl_02.Models.Drugs
 {
+    using Modyl_02.Enums;
     public class Sedariston : Substances
     {
         public override int NumberRecipe => 1;

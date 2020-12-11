@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Modyl_02.Models.Drugs;
-using System.Collections;
-using System.Threading.Tasks;
-using Modyl_02.Models;
+﻿namespace Modyl_02.Helpers
+{
+    using System.Collections;
+    using Modyl_02.Models;
 
-namespace Modyl_02.Helpers
-{  
     public class SubstancesComparer : IComparer
     {
 
