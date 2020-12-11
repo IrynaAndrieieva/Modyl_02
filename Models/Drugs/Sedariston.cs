@@ -9,10 +9,8 @@ namespace Modyl_02.Models.Drugs
 {
     public class Sedariston : Substances
     {
-        public Sedariston(int numberRecipe)
-           : base(numberRecipe)
-        {
-        }
+        public override int NumberRecipe => 1;
+
         public override string NameDrugs => "Sedariston";
 
         public override string Compositionem => "Menta, Valeriana Officinalic";

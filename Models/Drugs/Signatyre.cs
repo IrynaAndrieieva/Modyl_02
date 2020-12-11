@@ -8,14 +8,8 @@ namespace Modyl_02.Models.Drugs
 {
     public abstract class Signatyre : IRecipe
     {
-        private readonly int numberRecipe;
-       
-        protected Signatyre(int numberRecipe)
-        {
-            this.numberRecipe = numberRecipe;
-        }
 
-        public int NumberRecipe => this.numberRecipe;
+        public abstract int NumberRecipe { get; }
 
         public abstract string NameDrugs { get; }
 

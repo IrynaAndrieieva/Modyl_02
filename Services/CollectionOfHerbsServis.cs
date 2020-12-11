@@ -6,6 +6,7 @@ using Modyl_02.Entities;
 using Modyl_02.Models;
 using Modyl_02.Abstractions;
 using System.Threading.Tasks;
+using Modyl_02.Models.Drugs;
 
 namespace Modyl_02.Services
 {
@@ -19,6 +20,8 @@ namespace Modyl_02.Services
         {
             var substances = new Substances[]
             {
+                new Sedariston(),
+
             }; 
 
             return new CollectionOfHerbs { Substances = substances };

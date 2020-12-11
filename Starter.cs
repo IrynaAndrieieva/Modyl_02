@@ -6,6 +6,7 @@ using Modyl_02.Abstractions;
 using Modyl_02.Services;
 using Modyl_02.Models;
 using System.Threading.Tasks;
+using Modyl_02.Helpers;
 
 namespace Modyl_02
 {
@@ -51,9 +52,21 @@ namespace Modyl_02
                 Console.WriteLine($"Familia: {fencingNonMed.Magnoliophyta[i].TypeOfFamilia}");
             }
 
-            var collectionOfHerbsServis = this.collectionOfHerbsServis.MakeSedativi();
+            Console.WriteLine("-------------------");
 
-            Console.WriteLine($"{collectionOfHerbsServis.Substances}");
+            Console.WriteLine("Write number doses:");
+            int doses = Convert.ToInt32(Console.ReadLine());
+
+            var collectionOfHerbsServis = this.collectionOfHerbsServis.MakeSedativi();
+            Array.Sort(collectionOfHerbsServis.Substances, new SubstancesComparer());
+
+            for (int i = 0; i < collectionOfHerbsServis.Substances.Length; i++)
+            {
+                Console.WriteLine($"\nNumber Recipe: {collectionOfHerbsServis.Substances[i].NumberRecipe}");
+                Console.WriteLine($"Name Drugs: {collectionOfHerbsServis.Substances[i].NameDrugs}");
+                Console.WriteLine($"Recipe: {collectionOfHerbsServis.Substances[i].Compositionem}");
+                Console.WriteLine($"Da tales doses № {doses} in {collectionOfHerbsServis.Substances[i].TypeOfSubstances}");
+            }
         }
     }
 }

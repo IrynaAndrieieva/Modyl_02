@@ -9,13 +9,7 @@ using System.Threading.Tasks;
 namespace Modyl_02.Models
 { 
     public abstract class Substances : Signatyre
-    {
-        protected Substances(int numberRecipe)
-           : base(numberRecipe)
-        {
-
-        }
+    {     
         public abstract TypeOfSubstances TypeOfSubstances { get; }
-
     }
 }

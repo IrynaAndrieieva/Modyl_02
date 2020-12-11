@@ -46,6 +46,7 @@
     <Compile Include="Abstractions\ICollectionOfHerbsServis.cs" />
     <Compile Include="Entities\CollectionOfHerbs.cs" />
     <Compile Include="Enums\TypeOfSubstances.cs" />
+    <Compile Include="Helpers\SubstancesComparer.cs" />
     <Compile Include="Models\Drugs\IRecipe.cs" />
     <Compile Include="Models\Drugs\Sedariston.cs" />
     <Compile Include="Models\Drugs\Signatyre.cs" />
