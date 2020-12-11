@@ -11,9 +11,15 @@ namespace Modyl_02
         static void Main(string[] args)
         {
             // Attention! I use Latin names to avoid confusion
+            Greeting great = new Greeting();
+            great.Hello();
 
             Starter start = new Starter();
-            start.Run();
+            start.Run();            
+
+            WriteChoise writeChoise = new WriteChoise();
+            writeChoise.SelectChoise();
+
             Console.ReadKey();
         }
     }

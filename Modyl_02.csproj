@@ -46,12 +46,14 @@
     <Compile Include="Abstractions\ICollectionOfHerbsServis.cs" />
     <Compile Include="Entities\CollectionOfHerbs.cs" />
     <Compile Include="Enums\TypeOfSubstances.cs" />
+    <Compile Include="Greeting.cs" />
     <Compile Include="Helpers\SubstancesComparer.cs" />
     <Compile Include="Models\Drugs\IRecipe.cs" />
     <Compile Include="Models\Drugs\Sedariston.cs" />
     <Compile Include="Models\Drugs\Signatyre.cs" />
     <Compile Include="Models\Spermatophytes\Sinningia.cs" />
     <Compile Include="Models\Drugs\Substances.cs" />
+    <Compile Include="Choise\SelectQuantity.cs" />
     <Compile Include="Services\CollectionOfHerbsServis.cs" />
     <Compile Include="Starter.cs" />
     <Compile Include="Services\FencingServis.cs" />
@@ -68,6 +70,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Enums\TypeOfFamilia.cs" />
+    <Compile Include="Choise\WriteChoise.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
